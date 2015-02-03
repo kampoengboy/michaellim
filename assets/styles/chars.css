@@ -1,0 +1,147 @@
+@-webkit-keyframes zero-run-init {
+    from { background-position: 0px 0px; }
+    to { background-position: -275px 0px; }
+}
+
+@-webkit-keyframes zero-run {
+    from { background-position: -110px 0px; }
+    to { background-position: -825px 0px; }
+}
+
+@-webkit-keyframes zero-stand {
+    from { background-position: 0px -50px; }
+    to { background-position: -100px -50px; }
+}
+
+@-webkit-keyframes zero-move-right {
+    to   { left: 200px; }
+}
+
+@-webkit-keyframes zero-move-left {
+    to   { left: 0px; }
+}
+
+@-webkit-keyframes zero-move-up{
+    to  {top: : 50px;}
+}
+
+@-webkit-keyframes zero-move-down{
+    to: {top: 140px;}
+}
+
+@-webkit-keyframes zero-up {
+    to { top: 50px; }
+}
+
+@-webkit-keyframes zero-bottom {
+    to { top: 150px; }
+}
+
+@-webkit-keyframes zero-jump-up{
+    from{background-position: 0px -100px;}
+    to{background-position: -275px -100px;}
+}
+
+@-webkit-keyframes zero-jump-down{
+    from{background-position: -275px -100px;}
+    to{background-position: -550px -100px;}
+}
+@-webkit-keyframes zero-ride{
+    from{background-position: 0px -200px;}
+    to{background-position: -550px -200px;}
+}
+
+@-webkit-keyframes bg-right {
+    to { background-position: -7050px -3px; }
+}
+@-webkit-keyframes bg-left {
+    to { background-position: -6750px -3px; }
+}
+#viewport {
+    background-image: url("../img/bg.png");
+    background-position: -6800px -3px;
+    height: 225px;
+    width: 640px;
+}
+
+#zero1 {
+    background-image: url("../img/zero1.png");
+    margin: 0 auto;
+    
+    width: 55px;
+    height: 53px;
+    
+    position: absolute;
+    top: 145px;
+    left: 500px;
+
+    -webkit-transform: rotateY(180deg);
+}
+
+#zero {
+    background-image: url("../img/zero.png");
+    margin: 0 auto;
+    
+    width: 55px;
+    height: 53px;
+    
+    position: absolute;
+    top: 145px;
+    left: 100px;
+    
+    /*-webkit-animation: zero-stand 1s steps(2, end) infinite;*/
+
+    /*
+    background-position: -815px -660px;
+    */
+    
+    /*
+    -webkit-animation: 
+        zero-run-init 0.8s steps(13, end) 1,
+        zero-run 1s steps(13, end) infinite;
+    */
+}
+
+.zero-stand {
+    -webkit-animation: zero-stand 1s steps(2, end) infinite;
+}
+
+.zero-run-right {
+    -webkit-animation: 
+        zero-run 1s steps(13, end) infinite;
+}
+.zero-run-left {
+    -webkit-animation: 
+        zero-run 1s steps(13, end) infinite;
+}
+.zero-ride-right{
+    -webkit-animation:
+        zero-ride 0.5s steps(5,end) infinite;
+}
+
+.zero-ride-left{
+    -webkit-animation:
+        zero-ride 0.5s steps(5,end) infinite;
+}
+
+.zero-run-instant {
+    -webkit-animation: zero-run 1s steps(13, end) 1;
+    -webkit-animation-delay: -1s;
+}
+
+.bg-move-right{
+    -webkit-animation:
+        bg-right 1s steps(13,end) infinite;
+}
+
+.zero-jump-up{
+    -webkit-animation:
+        zero-move-up 1s linear infinite,
+        zero-jump-up 0.325s steps(5,end) 1;
+}
+
+.zero-jump-down{
+    -webkit-animation: 
+        zero-move-down 1s linear infinite,
+        zero-jump-down 0.2s steps(5,end) 1;
+}
