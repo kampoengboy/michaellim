@@ -44,8 +44,14 @@ module.exports.routes = {
   '/blog/about' : {
     view : 'blog/about'
   },
-  '/post': {response: 'notFound'}
+  '/post': {response: 'notFound'},
 
+  '/post/basa-basi-tentang-saya' : {
+    view : 'post/basa-basi-tentang-saya'
+  },
+  '/post/apa-itu-algoritma' : {
+    view : 'post/apa-itu-algoritma'
+  }
   /***************************************************************************
   *                                                                          *
   * Custom routes here...                                                    *
