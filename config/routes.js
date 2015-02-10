@@ -37,7 +37,15 @@ module.exports.routes = {
   },
   '/zero' : {
     view : 'zero'
-  }
+  },
+  '/blog' : {
+    view : 'blog/homepage'
+  },
+  '/blog/about' : {
+    view : 'blog/about'
+  },
+  '/post': {response: 'notFound'}
+
   /***************************************************************************
   *                                                                          *
   * Custom routes here...                                                    *
