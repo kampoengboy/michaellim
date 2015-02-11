@@ -1,0 +1,155 @@
+<link href="/styles/blog/clean-blog.min.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+
+
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Kampoengboy's Blog</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/blog">Home</a>
+                    </li>
+                    <li>
+                        <a href="/blog/about">About</a>
+                    </li>
+                    <li>
+                        <a href="/#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header" style="background-image: url('/img/cpp.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="post-heading">
+                        <h1>Mengenal Bahasa Pemrograman C/C++</h1>
+                        <h2 class="subheading">Penjelasan mengenai Bahasa Pemrograman C/C++</h2>
+                        <span class="meta">Postingan pada 11 Februari 2015</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Post Content -->
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1" style="text-align : justify">
+                    <b>Mengenal Bahasa Pemrograman</b>
+                    <p>Bahasa pemrograman adalah suatu kumpulan kata (perintah) yang siap digunakan untuk menulis suatu kode program sehingga kode-kode program yang kita tulis tersebut akan dapat dikenali oleh kompilator yang sesuai. Kata-kata tersebut dalam bahasa pemrograman disebut dengan keyword (reserve word). Untuk mempelajari bahasa pemrograman tertentu kita tidak harus menghafal semua keyword (kata kunci) yang ada di dalamnya, namun yang perlu kita ketahui adalah fungsi dan aturan penggunaannya.<br><br>
+                    Contoh dari beberapa keyword misalnya : int, main, for, while, do while, dsb.<br><br>
+                    Pada pembahasan kali ini, kita akan menggunakan salah satu bahasa pemrograman tingkat tinggi yaitu C / C++ dan tentunya sudah sangat melekat di diri saya sejak saya memulai apa yang disebut sebagai "Kontes Pemrograman".</p>
+                    <b>Sejarah Bahasa C++</b>
+                    <p>C++ adalah bahasa pemrograman komputer yang dibuat oleh Evano Christian Posumah (Bjarne Stroustrup) merupakan perkembangan dari bahasa C dikembangkan di Bell Labs (Dennis Ritchie) pada awal tahun 1970-an. Bahasa itu diturunkan dari bahasa sebelumnya, yaitu B, Pada awalnya, bahasa tersebut dirancang sebagai bahasa pemrograman yang dijalankan pada sistem Unix. Pada perkembangannya, Bahasa pemrograman C versi ANSI (American National Standart Institute) menjadi versi yang lebih dominan dipakai meskipun versi tersebut sekarang sudah jarang dipakai dalam pengembangan sistem dan jaringan maupun untuk sistem embedded. Untuk mendukung fitur-fitur pada C++, dibangun efisiensi dan sistem support untuk pemrograman tingkat rendah. Pada C++ ditambahkan konsep-konsep baru seperti class dengan sifat-sifatnya seperti inheritance dan overloading. Salah satu perbedaan yang paling mendasar dengan bahasa C adalah dukungan terhadap konsep pemrograman berorientasi objek</p>
+                    <b>Contoh Penggunaan Bahasa C (C-Style)</b>
+                    <div class="well well-lg">
+                    <code>
+                    #include &lt;stdio.h&gt;
+                    <br>
+                    int main()
+                    <br>
+                    {
+                        <br>
+                        &nbsp;&nbsp;printf("Hello World!");
+                        <br>
+                    }
+                    </code>
+                    </div>
+                    <b>Contoh Penggunaan Bahasa C++ (C++-Style)</b>
+                    <div class="well well-lg">
+                    <code>
+                    #include &lt;iostream&gt;
+                    <br>
+                    int main()
+                    <br>
+                    {
+                        <br>
+                        &nbsp;&nbsp;cout&lt;&lt;("Hello World!");
+                        <br>
+                    }
+                    </code>
+                    </div>
+
+                    <p>Untuk lebih jelasnya, saya menyediakan Link berupa slide presentasi yang saya buat untuk pembelajaran anda mengenai bahasa C/C++ itu sendiri. Di dalam slide ini berisi penjelasan mengenai bagaimana menggunakan bahasa tersebut dan terdapat beberapa soal yang telah saya berikan sebagai bahan latihan anda.</p>
+                    <div class="col-lg-8 col-lg-offset-2 text-center">
+                            <a href="https://www.dropbox.com/s/7tqbsf16z5vas4b/Fast%20Track%20C%2B%2B.pptx?dl=0" class="btn btn-success btn-outline">
+                                <i class="fa fa-download"></i> Download
+                            </a>
+                    </div>
+                    <br><br><br>
+                    <p>Untuk menggunakan ataupun mencoba bahasa C/C++, kalian perlu mendownload editor dan compiler dari C/C++ itu sendiri. Terdapat banyak sekali editor dan compiler yang Open-Source (gratis) seperti NotePad++, DevCpp, Codeblocks, dll, tetapi untuk kali ini saya merekomendasikan CodeBlocks dikarenakan saya juga memakai editor ini dan sejauh ini saya merasa nyaman untuk melakukan segala aktivitas pemrograman yang berhubungan dengan bahasa C/C++ ini. Untuk keterangan tentang Codeblocks itu sendiri dan mendownload aplikasinya, anda bisa mengunjungi websitenya sendiri di <a href="http://www.codeblocks.org">www.codeblocks.org</a>.</p>
+            </div>
+        </div>
+    </article>
+
+    <hr>
+
+<!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ul class="list-inline text-center">
+                        <li>
+                            <a href="https://twitter.com/mike_kolexia">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://facebook.com/kampoengboy">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/kampoengboy">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://instagram.com/mike.kazama">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted" style="color:black;">Copyright &copy; Michael Lim 2015</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/clean-blog.min.js"></script>

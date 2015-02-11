@@ -51,6 +51,9 @@ module.exports.routes = {
   },
   '/post/apa-itu-algoritma' : {
     view : 'post/apa-itu-algoritma'
+  },
+  '/post/bahasa-pemrograman-cpp' : {
+    view : 'post/bahasa-pemrograman-cpp'
   }
   /***************************************************************************
   *                                                                          *
