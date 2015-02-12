@@ -1,7 +1,39 @@
 <link href="/styles/blog/clean-blog.min.css" rel="stylesheet">
 <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<style type="text/css">
+.clock {
+    width: 460px;
+    position: relative;
+    margin:0 auto;
+    line-height: 1.4em;
+}
+@media screen and (max-width: 500px) {
 
+    .header { padding-bottom: 25px; padding: 5px 0; }
+    .header .buttons { margin: 50px 0 0; text-align: center; }
+    .header h1 { font-size: 54px; }
+    .header .version { font-size: 18px; }
+    .header .clock { margin: 0 auto; display: block; width: 322px; }
+    
+    .flip-clock-wrapper ul { height: 100px; line-height: 50px; }
+    .flip-clock-wrapper ul li a div.up:after { top: 0px; }
+    .flip-clock-divider { margin-top:20px;height: 50px; }
+    .flip-clock-dot { height: 6px; width: 6px; left: 7px;}
+    .flip-clock-dot.top { top: 17px; }
+    .flip-clock-dot.bottom { bottom: 10px; }
+    
+    
+    .header .flip-clock-divider .flip-clock-label { font-size: 20px; }
+    .header .flip-clock-divider.hours .flip-clock-label { right: -66px; }
+    .header .flip-clock-divider.minutes .flip-clock-label { right: -78px; }
+    .header .flip-clock-divider.seconds .flip-clock-label { right: -78px; }
+    
+    .flip-clock-wrapper ul { width: 45px; }
+    .flip-clock-wrapper ul li a div div.inn { font-size: 30px; }
+}
+
+</style>
 <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -44,6 +76,9 @@
                         <h1>Kampoengboy's Blog</h1>
                         <hr class="small">
                         <span class="subheading">A Place Where "Kampoengan" becomes "Geeky and Techie"</span>
+                        <br>
+                        <p>Waktu Sekarang : </p>
+                        <div class="flip-counter clock"></div>
                     </div>
                 </div>
             </div>
@@ -141,3 +176,4 @@
 <script src="/js/jquery.min.js"></script>
 <script src="/js/bootstrap.min.js"></script>
 <script src="/js/clean-blog.min.js"></script>
+<script src="/js/app.js"></script>
