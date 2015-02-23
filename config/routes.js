@@ -54,6 +54,9 @@ module.exports.routes = {
   },
   '/post/bahasa-pemrograman-cpp' : {
     view : 'post/bahasa-pemrograman-cpp'
+  },
+  '/post/mengenal-html-css-javascript' : {
+    view : 'post/mengenal-html-css-javascript'
   }
   /***************************************************************************
   *                                                                          *
