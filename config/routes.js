@@ -57,6 +57,9 @@ module.exports.routes = {
   },
   '/post/mengenal-html-css-javascript' : {
     view : 'post/mengenal-html-css-javascript'
+  },
+  '/post/mengenal-sailsjs' : {
+    view: 'post/mengenal-sailsjs'
   }
   /***************************************************************************
   *                                                                          *
