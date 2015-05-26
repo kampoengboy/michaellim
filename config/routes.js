@@ -60,6 +60,9 @@ module.exports.routes = {
   },
   '/post/mengenal-sailsjs' : {
     view: 'post/mengenal-sailsjs'
+  },
+  '/post/kolexia-meluncurkan-fitur-komunitas':{
+    view:'post/kolexia-meluncurkan-fitur-komunitas'
   }
   /***************************************************************************
   *                                                                          *
